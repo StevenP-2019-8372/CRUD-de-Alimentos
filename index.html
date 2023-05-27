@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CRUD de Alimentos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>CRUD de Alimentos</h1>
+    <form id="foodForm">
+        <label for="name">Nombre:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="calories">Calorías:</label><br>
+        <input type="number" id="calories" name="calories"><br><br>
+        <input type="submit" value="Agregar">
+    </form><br><br>
+    <table id="foodTable">
+        <tr>
+            <th>Nombre</th>
+            <th>Calorías</th>
+            <th>Acciones</th>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
